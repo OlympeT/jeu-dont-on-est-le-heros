@@ -1,0 +1,22 @@
+﻿@using jeudontonestlehero.Core.Data
+@model List<Aventure>
+@{
+    ViewData["Title"] = "Aventure Page";
+}
+
+<h1 class="text-center">@this.ViewBag.monTitre</h1>
+<div class="row justify-content-center">
+    <a asp-controller="Aventure" asp-action="Create" class="btn btn-primary text-center">Nouvelle aventure</a>
+</div> 
+<h3 class="text-center">Vos derniers aventures</h3>
+<div class="row">
+    @foreach (var aventure in Model)
+    {
+        <a href="#" class="card border m-1 text-center" style="width:7rem;">
+            <div class="card-body">
+                @aventure.Titre
+            </div>
+        </a>
+
+    }
+</div>

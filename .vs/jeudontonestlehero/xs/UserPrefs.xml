@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{71BB286A-E3AC-46CC-A608-827B5634ACC3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Edit.cshtml">
+    <Files>
+      <File FileName="webmvcdotnetavecvscommunity/Program.cs" Line="1" Column="1" />
+      <File FileName="webmvcdotnetavecvscommunity/Startup.cs" />
+      <File FileName="webmvcdotnetavecvscommunity/appsettings.Development.json" />
+      <File FileName="webmvcdotnetavecvscommunity/Views/Home/Index.cshtml" />
+      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="36" />
+      <File FileName="jeudontonestleheros.Web.UI/Models/Aventure.cs" Line="2" Column="39" />
+      <File FileName="jeudontonestleheros.Web.UI/Controllers/AventureController.cs" Line="29" Column="31" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="12" Column="35" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Question.cs" Line="14" Column="25" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Reponse.cs" Line="8" Column="46" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs" Line="15" Column="10" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Create.cshtml" Line="35" Column="43" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Index.cshtml" Line="5" Column="10" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Edit.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="jeudontonestlehero" expanded="True">
+            <Node name="Libs" expanded="True">
+              <Node name="jeudontonestlehero.Core.Data" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="jeudontonestleheros.Backoffice.Web.UI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Paragraphe" expanded="True">
+                  <Node name="Edit.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="jeudontonestleheros.Web.UI" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Aventure" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.jeudontonestleheros.Web.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>webmvcdotnetavecvscommunity/webmvcdotnetavecvscommunity.csproj</String>
+    <String>webmvcdotnetavecvscommunity/DecouverteForEach/DecouverteForEach.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.jeudontonestleheros.Backoffice.Web.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,12 @@
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/bin/Debug/net5.0/jeudontonestlehero.Core.Data.deps.json
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/bin/Debug/net5.0/jeudontonestlehero.Core.Data.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/bin/Debug/net5.0/ref/jeudontonestlehero.Core.Data.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/bin/Debug/net5.0/jeudontonestlehero.Core.Data.pdb
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.csprojAssemblyReference.cache
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.AssemblyInfoInputs.cache
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.AssemblyInfo.cs
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.csproj.CoreCompileInputs.cache
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/ref/jeudontonestlehero.Core.Data.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.pdb

@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/jeudontonestleheros.Web.UI.csproj": {}
+  },
+  "projects": {
+    "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/jeudontonestlehero.Core.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/jeudontonestlehero.Core.Data.csproj",
+        "projectName": "jeudontonestlehero.Core.Data",
+        "projectPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/jeudontonestlehero.Core.Data.csproj",
+        "packagesPath": "/Users/grelepupu/.nuget/packages/",
+        "outputPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/grelepupu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/jeudontonestleheros.Web.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/jeudontonestleheros.Web.UI.csproj",
+        "projectName": "jeudontonestleheros.Web.UI",
+        "projectPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/jeudontonestleheros.Web.UI.csproj",
+        "packagesPath": "/Users/grelepupu/.nuget/packages/",
+        "outputPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/grelepupu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/jeudontonestlehero.Core.Data.csproj": {
+                "projectPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/jeudontonestlehero.Core.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
