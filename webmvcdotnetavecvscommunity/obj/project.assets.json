@@ -20,7 +20,7 @@
       "outputPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/webmvcdotnetavecvscommunity/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/grelepupu/.config/NuGet/NuGet.Config"
+        "/Users/grelepupu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

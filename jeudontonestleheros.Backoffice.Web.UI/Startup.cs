@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using jeudontonestlehero.Core.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +26,19 @@ namespace jeudontonestleheros.Backoffice.Web.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            // Configuration de la connection au server sql
+            //string connectionString = this.Configuration.GetConnectionString("DefaultContext");
+
+            // Etablir la connection
+            //services.AddDbContext<DefaultContext>(options => options.UseSqlServer(connectionString), ServiceLifetime.Scoped);
+            services.AddAuthentication().AddFacebook(options =>
+            {
+                options.AppId = this.Configuration["apis:facebook:appid"];
+                options.AppSecret = this.Configuration["apis:facebook:secret"];
+                options.AccessDeniedPath = "/AccessDeniedPathInfo";
+                options.CallbackPath = "/Identity/Account/ExternalLogin";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +66,7 @@ namespace jeudontonestleheros.Backoffice.Web.UI
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

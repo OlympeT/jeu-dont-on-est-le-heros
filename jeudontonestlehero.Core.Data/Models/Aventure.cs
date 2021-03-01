@@ -1,6 +1,9 @@
 ﻿using System;
-namespace jeudontonestlehero.Core.Data
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace jeudontonestlehero.Core.Data.Models
 {
+    [Table("Aventure")]
     public class Aventure
     {
         #region Proprietes
@@ -14,9 +17,5 @@ namespace jeudontonestlehero.Core.Data
         /// </summary>
         public string Titre { get; set; }
         #endregion
-
-        public Aventure()
-        {
-        }
     }
 }

@@ -1,0 +1,11 @@
+@page
+@model DecouverteValidateurs.Views.Jedi.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

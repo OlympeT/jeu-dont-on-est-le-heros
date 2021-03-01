@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/TestAuthentification001/TestAuthentification001.csproj": {}
+  },
+  "projects": {
+    "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/TestAuthentification001/TestAuthentification001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/TestAuthentification001/TestAuthentification001.csproj",
+        "projectName": "TestAuthentification001",
+        "projectPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/TestAuthentification001/TestAuthentification001.csproj",
+        "packagesPath": "/Users/grelepupu/.nuget/packages/",
+        "outputPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/TestAuthentification001/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/grelepupu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

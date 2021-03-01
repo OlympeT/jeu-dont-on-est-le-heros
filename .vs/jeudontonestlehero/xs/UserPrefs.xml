@@ -1,52 +1,59 @@
-﻿<Properties StartupConfiguration="{71BB286A-E3AC-46CC-A608-827B5634ACC3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Edit.cshtml">
+﻿<Properties StartupConfiguration="{4551C956-BB94-4B27-90F6-6EBFF551F695}|Default">
+  <MonoDevelop.Ide.ItemProperties.Exemples.MesPremiersTestsAvecEntitiesCodeFirst PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml">
     <Files>
-      <File FileName="webmvcdotnetavecvscommunity/Program.cs" Line="1" Column="1" />
-      <File FileName="webmvcdotnetavecvscommunity/Startup.cs" />
-      <File FileName="webmvcdotnetavecvscommunity/appsettings.Development.json" />
-      <File FileName="webmvcdotnetavecvscommunity/Views/Home/Index.cshtml" />
-      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="36" />
-      <File FileName="jeudontonestleheros.Web.UI/Models/Aventure.cs" Line="2" Column="39" />
-      <File FileName="jeudontonestleheros.Web.UI/Controllers/AventureController.cs" Line="29" Column="31" />
-      <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="12" Column="35" />
-      <File FileName="jeudontonestlehero.Core.Data/Models/Question.cs" Line="14" Column="25" />
-      <File FileName="jeudontonestlehero.Core.Data/Models/Reponse.cs" Line="8" Column="46" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs" Line="15" Column="10" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Create.cshtml" Line="35" Column="43" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Index.cshtml" Line="5" Column="10" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="18" Column="23" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Question.cs" Line="8" Column="5" />
+      <File FileName="jeudontonestlehero.Core.Data/DefaultDesignTimeDbContextFactory.cs" Line="17" Column="53" />
+      <File FileName="jeudontonestlehero.Core.Data/DefaultContext.cs" Line="1" Column="1" />
+      <File FileName="jeudontonestlehero.Core.Data/appsettings.json" Line="1" Column="1" />
+      <File FileName="jeudontonestlehero.Core.Data/Migrations/20210301152856_PremiereMigration.cs" Line="1" Column="1" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Reponse.cs" Line="11" Column="11" />
+      <File FileName="DecouverteValidateurs/Models/Jedi.cs" Line="14" Column="2" />
+      <File FileName="DecouverteValidateurs/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="DecouverteValidateurs/Controllers/JediController.cs" Line="1" Column="1" />
+      <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml.cs" Line="1" Column="1" />
+      <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml" Line="1" Column="1" />
+      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="jeudontonestlehero" expanded="True">
-            <Node name="Libs" expanded="True">
-              <Node name="jeudontonestlehero.Core.Data" expanded="True">
+            <Node name="Exemples" expanded="True">
+              <Node name="DecouverteValidateurs" expanded="True">
+                <Node name="Controllers" expanded="True" />
                 <Node name="Models" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="jeudontonestleheros.Backoffice.Web.UI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Paragraphe" expanded="True">
-                  <Node name="Edit.cshtml" selected="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True" />
+                  <Node name="Jedi" expanded="True" />
                 </Node>
               </Node>
             </Node>
+            <Node name="Libs" expanded="True">
+              <Node name="jeudontonestlehero.Core.Data" expanded="True">
+                <Node name="Migrations" expanded="True" />
+                <Node name="Models" expanded="True" />
+              </Node>
+            </Node>
             <Node name="jeudontonestleheros.Web.UI" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Aventure" expanded="True" />
+                <Node name="Aventure" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Exemples.TestAuthentification001 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.jeudontonestleheros.Web.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Exemples.Authentification.TestAuthentificationFacebook FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>webmvcdotnetavecvscommunity/webmvcdotnetavecvscommunity.csproj</String>
@@ -58,4 +65,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Exemples.DecouverteValidateurs PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

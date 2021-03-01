@@ -1,9 +1,14 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
 namespace jeudontonestlehero.Core.Data.Models
 {
+    [Table("Paragraphe")]
     public class Paragraphe
     {
         #region Proprietes
+        [Key]
         public int Id { get; set; }
         public int Numero { get; set; }
         public string Titre { get; set; }

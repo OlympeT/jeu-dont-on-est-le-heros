@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using jeudontonestlehero.Core.Data;
 using jeudontonestlehero.Core.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,24 +10,45 @@ namespace jeudontonestleheros.Backoffice.Web.UI.Controllers
 {
     public class ParagrapheController : Controller
     {
-        private List<Paragraphe> _maList = new List<Paragraphe>()
+        // Recupere le context de connection a la base
+        private readonly DefaultContext _context = null;
+
+        public ParagrapheController(DefaultContext context)
         {
-            new Paragraphe(){Id = 1, Numero = 1, Titre = "un tire 1", Description = " Undescription"},
-            new Paragraphe(){Id = 2, Numero = 1, Titre = "un tire 2", Description = " Undescription"},
-            new Paragraphe(){Id = 2, Numero = 1, Titre = "un tire 3", Description = " Undescription"},
-        };
+            this._context = context;
+        }
+
         #region Methode Public
 
         public ActionResult Index()
-        {         
-            return this.View();
+        {
+            // Requete Linq
+            var query = from item in this._context.Paragraphes
+                        select item;
+            var maList = query.ToList();
+            return this.View(maList);
         }
 
         public ActionResult Edit(int id)
         {
+           
             Paragraphe paragraphe = null;
-            paragraphe = _maList.First(item => item.Id == id);
+            paragraphe = this._context.Paragraphes.First(item => item.Id == id);
             return this.View(paragraphe);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Paragraphe paragraphe)
+        {
+            // Modtifier que si la valeur a changer
+            //this._context.Attach<Paragraphe>(paragraphe);
+            //this._context.Entry(paragraphe).Property(item => item.Titre).IsModified = true;
+
+            // Tout update
+            this._context.Paragraphes.Update(paragraphe);
+
+            this._context.SaveChanges();
+            return this.View();
         }
 
         public ActionResult Create()
@@ -37,6 +59,8 @@ namespace jeudontonestleheros.Backoffice.Web.UI.Controllers
         [HttpPost]
         public ActionResult Create(Paragraphe paragraphe)
         {
+            this._context.Paragraphes.Add(paragraphe);
+            this._context.SaveChanges();
             return this.View();
         }
         #endregion

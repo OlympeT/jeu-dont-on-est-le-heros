@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>54a946e4-784d-4587-9a79-a8c06abe758c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.3" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="3.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml" />
+    <Content Remove="Areas\Identity\Pages\Account\_ViewImports.cshtml" />
+    <Content Remove="Areas\Identity\Pages\_ViewImports.cshtml" />
+    <Content Remove="Areas\Identity\Pages\Account\ConfirmEmail.cshtml" />
+    <Content Remove="Areas\Identity\Pages\Account\ForgotPassword.cshtml" />
+    <Content Remove="Areas\Identity\Pages\Account\Manage\PersonalData.cshtml" />
+    <Content Remove="Areas\Identity\Pages\Account\Manage\SetPassword.cshtml" />
+    <Content Remove="Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml" />
+    <Content Remove="Areas\Identity\Pages\Account\Register.cshtml" />
+  </ItemGroup>
+</Project>

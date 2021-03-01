@@ -10,3 +10,6 @@
 /Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.dll
 /Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/ref/jeudontonestlehero.Core.Data.dll
 /Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.pdb
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/bin/Debug/net5.0/jeudontonestlehero.Core.Data.runtimeconfig.json
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/bin/Debug/net5.0/jeudontonestlehero.Core.Data.runtimeconfig.dev.json
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/Debug/net5.0/jeudontonestlehero.Core.Data.genruntimeconfig.cache
