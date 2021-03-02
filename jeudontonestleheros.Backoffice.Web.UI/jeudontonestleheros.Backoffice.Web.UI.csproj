@@ -21,8 +21,15 @@
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="5.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.3" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Paragraphe\" />
+    <Folder Include="Views\Question\" />
+    <Folder Include="Views\Reponse\" />
   </ItemGroup>
 </Project>

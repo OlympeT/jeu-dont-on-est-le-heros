@@ -28,10 +28,10 @@ namespace jeudontonestleheros.Backoffice.Web.UI
             services.AddControllersWithViews();
 
             // Configuration de la connection au server sql
-            //string connectionString = this.Configuration.GetConnectionString("DefaultContext");
+            string connectionString = this.Configuration.GetConnectionString("DefaultContext");
 
             // Etablir la connection
-            //services.AddDbContext<DefaultContext>(options => options.UseSqlServer(connectionString), ServiceLifetime.Scoped);
+            services.AddDbContext<DefaultContext>(options => options.UseSqlServer(connectionString), ServiceLifetime.Scoped);
             services.AddAuthentication().AddFacebook(options =>
             {
                 options.AppId = this.Configuration["apis:facebook:appid"];
