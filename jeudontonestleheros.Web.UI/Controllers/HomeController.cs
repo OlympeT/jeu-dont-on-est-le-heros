@@ -18,6 +18,10 @@ namespace jeudontonestleheros.Web.UI.Controllers
             _logger = logger;
         }
 
+        public HomeController()
+        {
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -32,6 +36,13 @@ namespace jeudontonestleheros.Web.UI.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Your application page";
+
+            return View();
         }
     }
 }

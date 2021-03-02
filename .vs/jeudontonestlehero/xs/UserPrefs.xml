@@ -1,35 +1,30 @@
-﻿<Properties StartupConfiguration="{DEA42423-020F-46F5-8F77-AF7B37DA7474}|Default">
+﻿<Properties StartupConfiguration="{71BB286A-E3AC-46CC-A608-827B5634ACC3}|Default">
   <MonoDevelop.Ide.ItemProperties.Exemples.MesPremiersTestsAvecEntitiesCodeFirst PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ExempleJedis/Droide.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Web.UI/Controllers/HomeController.cs">
     <Files>
       <File FileName="TestJeuDroides/JediUnitTest.cs" Line="1" Column="1" />
-      <File FileName="ExempleJedis/Jedi.cs" Line="1" Column="1" />
+      <File FileName="ExempleJedis/Jedi.cs" />
       <File FileName="ExempleJedis/Droide.cs" Line="1" Column="1" />
+      <File FileName="TestWebUI/UnitTest1.cs" Line="16" Column="6" />
+      <File FileName="jeudontonestleheros.Web.UI/Controllers/HomeController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="jeudontonestlehero" expanded="True">
             <Node name="Exemples" expanded="True">
-              <Node name="ExempleJedis" expanded="True">
-                <Node name="Droide.cs" selected="True" />
+              <Node name="Authentification" expanded="True" />
+              <Node name="Tests Unitaires" expanded="True">
+                <Node name="TestWebUI" expanded="True" />
               </Node>
               <Node name="TestJeuDroides" expanded="True" />
             </Node>
             <Node name="jeudontonestleheros.Web.UI" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Aventure" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="jeudontonestlehero" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
