@@ -15,12 +15,6 @@ namespace DecouverteValidateurs.Controllers
             return View();
         }
 
-        // GET: Jedi/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
         // GET: Jedi/Create
         public ActionResult Create()
         {
@@ -30,18 +24,15 @@ namespace DecouverteValidateurs.Controllers
         // POST: Jedi/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Models.Jedi jedi)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add insert logic here
+                // Enregistrement en bdd
 
-                return RedirectToAction(nameof(Index));
             }
-            catch
-            {
-                return View();
-            }
+            return this.View(jedi);
+           
         }
 
         // GET: Jedi/Edit/5
@@ -53,24 +44,9 @@ namespace DecouverteValidateurs.Controllers
         // POST: Jedi/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Models.Jedi jedi)
         {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Jedi/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
+            return this.View(jedi);
         }
 
         // POST: Jedi/Delete/5
