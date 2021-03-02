@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="{71BB286A-E3AC-46CC-A608-827B5634ACC3}|Default">
   <MonoDevelop.Ide.ItemProperties.Exemples.MesPremiersTestsAvecEntitiesCodeFirst PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs">
+  <MonoDevelop.Ide.ItemProperties.Exemples.ExempleJedis FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExempleJedis/Droide.cs">
     <Files>
       <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="14" Column="27" />
       <File FileName="jeudontonestlehero.Core.Data/Models/Question.cs" Line="8" Column="5" />
@@ -16,20 +17,17 @@
       <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml" Line="12" Column="13" />
       <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="43" />
       <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Create.cshtml" Line="14" Column="79" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs" Line="61" Column="10" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs" Line="65" Column="45" />
+      <File FileName="ExempleJedis/Droide.cs" Line="7" Column="44" />
+      <File FileName="ExempleJedis/Jedi.cs" Line="13" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="jeudontonestlehero" expanded="True">
             <Node name="Exemples" expanded="True">
-              <Node name="DecouverteValidateurs" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Models" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="Home" expanded="True" />
-                  <Node name="Jedi" expanded="True" />
-                </Node>
+              <Node name="ExempleJedis" expanded="True">
+                <Node name="Droide.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Libs" expanded="True">
@@ -38,9 +36,7 @@
               </Node>
             </Node>
             <Node name="jeudontonestleheros.Backoffice.Web.UI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ParagrapheController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Paragraphe" expanded="True" />

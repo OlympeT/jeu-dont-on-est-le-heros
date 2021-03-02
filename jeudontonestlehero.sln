@@ -27,6 +27,8 @@ Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "webmvcdotnetavecvscommunity
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteValidateurs", "DecouverteValidateurs\DecouverteValidateurs.csproj", "{4551C956-BB94-4B27-90F6-6EBFF551F695}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleJedis", "ExempleJedis\ExempleJedis.csproj", "{DBBF4870-B80A-47E8-B851-E1447F99D2BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{4551C956-BB94-4B27-90F6-6EBFF551F695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4551C956-BB94-4B27-90F6-6EBFF551F695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4551C956-BB94-4B27-90F6-6EBFF551F695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBF4870-B80A-47E8-B851-E1447F99D2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBF4870-B80A-47E8-B851-E1447F99D2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBF4870-B80A-47E8-B851-E1447F99D2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBF4870-B80A-47E8-B851-E1447F99D2BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,5 +91,6 @@ Global
 		{BB76F359-A28C-4D73-A60E-AC56B81F12C2} = {55E9FCA1-520A-410C-8F2C-EACA1E71DA5C}
 		{2580F6ED-0DF7-417C-9DE3-C04FA852B2F9} = {55E9FCA1-520A-410C-8F2C-EACA1E71DA5C}
 		{4551C956-BB94-4B27-90F6-6EBFF551F695} = {55E9FCA1-520A-410C-8F2C-EACA1E71DA5C}
+		{DBBF4870-B80A-47E8-B851-E1447F99D2BA} = {55E9FCA1-520A-410C-8F2C-EACA1E71DA5C}
 	EndGlobalSection
 EndGlobal

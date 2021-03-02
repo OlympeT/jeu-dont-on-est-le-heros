@@ -11,7 +11,7 @@ namespace jeudontonestlehero.Core.Data.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(AllowEmptyStrings = false, ErrorMessage = "Le titre doit être renseigné.")]
+        [Range(1, 99999999, ErrorMessage = "Le titre doit être renseigné.")]
         public int Numero { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Le titre doit être renseigné.")]
