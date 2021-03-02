@@ -10,8 +10,14 @@ namespace jeudontonestlehero.Core.Data.Models
         #region Proprietes
         [Key]
         public int Id { get; set; }
+
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Le titre doit être renseigné.")]
         public int Numero { get; set; }
+
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Le titre doit être renseigné.")]
         public string Titre { get; set; }
+
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Le titre doit être renseigné.")]
         public string Description { get; set; }
         /// <summary>
         /// Question de paragraphe

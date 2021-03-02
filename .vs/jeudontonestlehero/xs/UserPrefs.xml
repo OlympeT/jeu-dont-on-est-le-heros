@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{71BB286A-E3AC-46CC-A608-827B5634ACC3}|Default">
   <MonoDevelop.Ide.ItemProperties.Exemples.MesPremiersTestsAvecEntitiesCodeFirst PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs">
     <Files>
-      <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="18" Column="23" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="14" Column="27" />
       <File FileName="jeudontonestlehero.Core.Data/Models/Question.cs" Line="8" Column="5" />
       <File FileName="jeudontonestlehero.Core.Data/DefaultDesignTimeDbContextFactory.cs" Line="17" Column="53" />
       <File FileName="jeudontonestlehero.Core.Data/DefaultContext.cs" Line="1" Column="1" />
       <File FileName="jeudontonestlehero.Core.Data/appsettings.json" Line="1" Column="1" />
       <File FileName="jeudontonestlehero.Core.Data/Migrations/20210301152856_PremiereMigration.cs" Line="1" Column="1" />
       <File FileName="jeudontonestlehero.Core.Data/Models/Reponse.cs" Line="11" Column="11" />
-      <File FileName="DecouverteValidateurs/Models/Jedi.cs" Line="14" Column="2" />
+      <File FileName="DecouverteValidateurs/Models/Jedi.cs" Line="15" Column="1" />
       <File FileName="DecouverteValidateurs/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="DecouverteValidateurs/Controllers/JediController.cs" Line="1" Column="1" />
+      <File FileName="DecouverteValidateurs/Controllers/JediController.cs" Line="32" Column="1" />
       <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml.cs" Line="1" Column="1" />
-      <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml" Line="1" Column="1" />
-      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="1" />
+      <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml" Line="12" Column="13" />
+      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="43" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Create.cshtml" Line="14" Column="79" />
+      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs" Line="61" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,15 +34,21 @@
             </Node>
             <Node name="Libs" expanded="True">
               <Node name="jeudontonestlehero.Core.Data" expanded="True">
-                <Node name="Migrations" expanded="True" />
                 <Node name="Models" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="jeudontonestleheros.Backoffice.Web.UI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ParagrapheController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Paragraphe" expanded="True" />
               </Node>
             </Node>
             <Node name="jeudontonestleheros.Web.UI" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Aventure" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Aventure" expanded="True" />
               </Node>
             </Node>
           </Node>
