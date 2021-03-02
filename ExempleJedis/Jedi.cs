@@ -8,11 +8,11 @@ namespace ExempleJedis
 
         public void Attaquer ( Droide droide)
         {
-            if (droide !=null )
+            if (droide != null)
             {
                 droide.PointDeVie -= 50;
             }
-            throw new NotImplementedException();
+            
         }
     }
 }

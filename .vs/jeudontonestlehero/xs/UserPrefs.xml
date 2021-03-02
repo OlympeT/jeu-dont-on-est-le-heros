@@ -1,25 +1,10 @@
-﻿<Properties StartupConfiguration="{71BB286A-E3AC-46CC-A608-827B5634ACC3}|Default">
+﻿<Properties StartupConfiguration="{DEA42423-020F-46F5-8F77-AF7B37DA7474}|Default">
   <MonoDevelop.Ide.ItemProperties.Exemples.MesPremiersTestsAvecEntitiesCodeFirst PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Exemples.ExempleJedis FirstBuild="True" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ExempleJedis/Droide.cs">
     <Files>
-      <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="14" Column="27" />
-      <File FileName="jeudontonestlehero.Core.Data/Models/Question.cs" Line="8" Column="5" />
-      <File FileName="jeudontonestlehero.Core.Data/DefaultDesignTimeDbContextFactory.cs" Line="17" Column="53" />
-      <File FileName="jeudontonestlehero.Core.Data/DefaultContext.cs" Line="1" Column="1" />
-      <File FileName="jeudontonestlehero.Core.Data/appsettings.json" Line="1" Column="1" />
-      <File FileName="jeudontonestlehero.Core.Data/Migrations/20210301152856_PremiereMigration.cs" Line="1" Column="1" />
-      <File FileName="jeudontonestlehero.Core.Data/Models/Reponse.cs" Line="11" Column="11" />
-      <File FileName="DecouverteValidateurs/Models/Jedi.cs" Line="15" Column="1" />
-      <File FileName="DecouverteValidateurs/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="DecouverteValidateurs/Controllers/JediController.cs" Line="32" Column="1" />
-      <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml.cs" Line="1" Column="1" />
-      <File FileName="DecouverteValidateurs/Views/Jedi/Create.cshtml" Line="12" Column="13" />
-      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="43" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Views/Paragraphe/Create.cshtml" Line="14" Column="79" />
-      <File FileName="jeudontonestleheros.Backoffice.Web.UI/Controllers/ParagrapheController.cs" Line="65" Column="45" />
-      <File FileName="ExempleJedis/Droide.cs" Line="7" Column="44" />
-      <File FileName="ExempleJedis/Jedi.cs" Line="13" Column="41" />
+      <File FileName="TestJeuDroides/JediUnitTest.cs" Line="1" Column="1" />
+      <File FileName="ExempleJedis/Jedi.cs" Line="1" Column="1" />
+      <File FileName="ExempleJedis/Droide.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,18 +14,7 @@
               <Node name="ExempleJedis" expanded="True">
                 <Node name="Droide.cs" selected="True" />
               </Node>
-            </Node>
-            <Node name="Libs" expanded="True">
-              <Node name="jeudontonestlehero.Core.Data" expanded="True">
-                <Node name="Models" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="jeudontonestleheros.Backoffice.Web.UI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Paragraphe" expanded="True" />
-              </Node>
+              <Node name="TestJeuDroides" expanded="True" />
             </Node>
             <Node name="jeudontonestleheros.Web.UI" expanded="True">
               <Node name="Views" expanded="True">
@@ -52,6 +26,11 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="jeudontonestlehero" expanded="True" selected="True" />
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

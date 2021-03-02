@@ -1,0 +1,12 @@
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/bin/Debug/net5.0/ExempleJedis.deps.json
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/bin/Debug/net5.0/ExempleJedis.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/bin/Debug/net5.0/ref/ExempleJedis.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/bin/Debug/net5.0/ExempleJedis.pdb
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ExempleJedis.csprojAssemblyReference.cache
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ExempleJedis.GeneratedMSBuildEditorConfig.editorconfig
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ExempleJedis.AssemblyInfoInputs.cache
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ExempleJedis.AssemblyInfo.cs
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ExempleJedis.csproj.CoreCompileInputs.cache
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ExempleJedis.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ref/ExempleJedis.dll
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/ExempleJedis/obj/Debug/net5.0/ExempleJedis.pdb
