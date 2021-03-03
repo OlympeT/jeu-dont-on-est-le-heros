@@ -53,9 +53,16 @@ namespace jeudontonestleheros.Web.UI.Controllers
             return result;
         }
 
-        public IActionResult BeginNewOne()
+        public IActionResult BeginNewOne(int id)
         {
-            return this.View(this._paragrapheLayer.GetFirst());
+            Paragraphe item = null;
+
+            if (id == 0)
+                item = this._paragrapheLayer.GetFirst();
+            else
+                item = this._paragrapheLayer.GetOne(id);
+
+            return this.View(item);
         }
 
         [HttpGet]
