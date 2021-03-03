@@ -31,5 +31,6 @@
     <Folder Include="Views\Paragraphe\" />
     <Folder Include="Views\Question\" />
     <Folder Include="Views\Reponse\" />
+    <Folder Include="Constraints\" />
   </ItemGroup>
 </Project>

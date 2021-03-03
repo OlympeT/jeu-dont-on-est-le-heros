@@ -64,8 +64,15 @@ namespace jeudontonestleheros.Backoffice.Web.UI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name: "editparagraphe",
+                    defaults: new {Controller = "Paragraphe"},
+                    pattern: "edition-paragraphe/{id}",
+                    constraints : new { id = @"\d+" } );
+
+                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
                 endpoints.MapRazorPages();
             });
         }
