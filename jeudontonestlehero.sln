@@ -27,13 +27,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleJedis", "ExempleJedi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJeuDroides", "TestJeuDroides\TestJeuDroides.csproj", "{51D9AEFC-DDA4-47EC-8553-57ED14D76163}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "DecouverteForEach", "webmvcdotnetavecvscommunity\DecouverteForEach\DecouverteForEach.csproj", "{0340AF3B-8218-44E8-810E-67CD178B5219}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteForEach", "webmvcdotnetavecvscommunity\DecouverteForEach\DecouverteForEach.csproj", "{0340AF3B-8218-44E8-810E-67CD178B5219}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "webmvcdotnetavecvscommunity", "webmvcdotnetavecvscommunity\webmvcdotnetavecvscommunity.csproj", "{F21C22C4-5711-4A95-ACDE-9E51D030239E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webmvcdotnetavecvscommunity", "webmvcdotnetavecvscommunity\webmvcdotnetavecvscommunity.csproj", "{F21C22C4-5711-4A95-ACDE-9E51D030239E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests Unitaires", "Tests Unitaires", "{56206457-254D-4679-A9D7-03AF92F5E635}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebUI", "TestWebUI\TestWebUI.csproj", "{B15489A1-BF21-4215-963E-2A4C783E7D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteSessions", "DecouverteSessions\DecouverteSessions.csproj", "{E1CF7CD1-F927-4C04-8F60-FC7D2AA4D320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{B15489A1-BF21-4215-963E-2A4C783E7D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B15489A1-BF21-4215-963E-2A4C783E7D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B15489A1-BF21-4215-963E-2A4C783E7D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CF7CD1-F927-4C04-8F60-FC7D2AA4D320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CF7CD1-F927-4C04-8F60-FC7D2AA4D320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CF7CD1-F927-4C04-8F60-FC7D2AA4D320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CF7CD1-F927-4C04-8F60-FC7D2AA4D320}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,5 +115,6 @@ Global
 		{F21C22C4-5711-4A95-ACDE-9E51D030239E} = {55E9FCA1-520A-410C-8F2C-EACA1E71DA5C}
 		{56206457-254D-4679-A9D7-03AF92F5E635} = {55E9FCA1-520A-410C-8F2C-EACA1E71DA5C}
 		{B15489A1-BF21-4215-963E-2A4C783E7D6C} = {56206457-254D-4679-A9D7-03AF92F5E635}
+		{E1CF7CD1-F927-4C04-8F60-FC7D2AA4D320} = {55E9FCA1-520A-410C-8F2C-EACA1E71DA5C}
 	EndGlobalSection
 EndGlobal

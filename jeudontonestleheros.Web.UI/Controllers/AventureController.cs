@@ -29,5 +29,16 @@ namespace jeudontonestleheros.Web.UI.Controllers
 
             return View(maList);
         }
+
+        public IActionResult Create()
+        {
+            return this.View();
+        }
+
+        [HttpGet]
+        public IActionResult Edit( int id)
+        {
+            return this.View();
+        }
     }
 }

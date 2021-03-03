@@ -75,6 +75,18 @@ namespace jeudontonestleheros.Web.UI
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+                   name: "aventure-creation",
+                   defaults: new { Controller = "Aventure", Action = "Create" },
+                   pattern: "demarrer-une-nouvelle-aventure" );
+
+                endpoints.MapControllerRoute(
+                   name: "aventure-edition",
+                   defaults: new { Controller = "Aventure", Action = "Edit" },
+                   pattern: "edition-aventure/{id}",
+                   constraints: new {id = @"\d+" });
+
                 endpoints.MapRazorPages();
             });
         }

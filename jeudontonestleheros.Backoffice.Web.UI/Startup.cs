@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using jeudontonestlehero.Core.Data;
+using jeudontonestleheros.Backoffice.Web.UI.Contraints;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -67,6 +68,7 @@ namespace jeudontonestleheros.Backoffice.Web.UI
                     name: "editparagraphe",
                     defaults: new {Controller = "Paragraphe"},
                     pattern: "edition-paragraphe/{id}",
+                    //constraints: new { id = new LogConstraint() });
                     constraints : new { id = @"\d+" } );
 
                 endpoints.MapControllerRoute(
