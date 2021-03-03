@@ -1,43 +1,38 @@
-﻿<Properties StartupConfiguration="{E1CF7CD1-F927-4C04-8F60-FC7D2AA4D320}|Default">
+﻿<Properties StartupConfiguration="{DFEC9DE2-6916-4903-8715-A56197133DA0}|Default">
   <MonoDevelop.Ide.ItemProperties.Exemples.MesPremiersTestsAvecEntitiesCodeFirst PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Exemples.DecouverteSessions PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="jeudontonestleheros.Web.UI/Startup.cs">
+    <Files>
+      <File FileName="jeudontonestleheros.Web.UI/Controllers/AventureController.cs" Line="46" Column="36" />
+      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Create.cshtml" Line="5" Column="27" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Aventure.cs" Line="19" Column="82" />
+      <File FileName="jeudontonestleheros.Web.UI/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/BeginNewOne.cshtml" Line="17" Column="25" />
+      <File FileName="jeudontonestleheros.Web.UI/Views/Aventure/Index.cshtml" Line="1" Column="1" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Question.cs" Line="1" Column="1" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Reponse.cs" Line="17" Column="20" />
+      <File FileName="jeudontonestlehero.Core.Data/Models/Paragraphe.cs" Line="9" Column="18" />
+      <File FileName="jeudontonestlehero.Core.Data/DefaultContext.cs" Line="19" Column="28" />
+      <File FileName="jeudontonestlehero.Core.Data/DataLayers/ParagrapheDataLayer.cs" Line="30" Column="42" />
+      <File FileName="jeudontonestlehero.Core.Data/DataLayers/AventureDataLayer.cs" Line="2" Column="25" />
+      <File FileName="jeudontonestleheros.Web.UI/Startup.cs" Line="43" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="jeudontonestlehero" expanded="True">
-            <Node name="Exemples" expanded="True">
-              <Node name="Authentification" expanded="True" />
-              <Node name="Tests Unitaires" expanded="True">
-                <Node name="TestWebUI" expanded="True" />
-              </Node>
-              <Node name="DecouverteSessions" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="Home" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="ExempleJedis" expanded="True" />
-              <Node name="TestJeuDroides" expanded="True">
-                <Node name="JediUnitTest.cs" selected="True" />
-              </Node>
-            </Node>
             <Node name="Libs" expanded="True">
               <Node name="jeudontonestlehero.Core.Data" expanded="True">
+                <Node name="DataLayers" expanded="True" />
                 <Node name="Models" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="jeudontonestleheros.Backoffice.Web.UI" expanded="True">
-              <Node name="Constraints" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Paragraphe" expanded="True" />
-                <Node name="Question" expanded="True" />
-                <Node name="Reponse" expanded="True" />
               </Node>
             </Node>
             <Node name="jeudontonestleheros.Web.UI" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Aventure" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

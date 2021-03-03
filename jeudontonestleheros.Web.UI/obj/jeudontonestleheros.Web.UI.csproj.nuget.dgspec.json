@@ -14,7 +14,7 @@
         "outputPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestlehero.Core.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/grelepupu/.config/NuGet/NuGet.Config"
+          "/Users/grelepupu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -94,7 +94,7 @@
         "outputPath": "/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/grelepupu/.config/NuGet/NuGet.Config"
+          "/Users/grelepupu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

@@ -165,3 +165,5 @@
 /Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml.g.cs
 /Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
 /Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/obj/Debug/net5.0/Razor/Views/Aventure/Create.cshtml.g.cs
+/Users/grelepupu/DotNet/FormationDotNet/jeudontonestlehero/jeudontonestleheros.Web.UI/obj/Debug/net5.0/Razor/Views/Aventure/BeginNewOne.cshtml.g.cs

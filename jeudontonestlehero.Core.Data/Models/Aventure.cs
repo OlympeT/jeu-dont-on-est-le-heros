@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace jeudontonestlehero.Core.Data.Models
@@ -15,6 +16,7 @@ namespace jeudontonestlehero.Core.Data.Models
         /// <summary>
         /// titre de chaque aventure
         /// </summary>
+        [Required(AllowEmptyStrings = true, ErrorMessage = "Titre est obligatoire")]
         public string Titre { get; set; }
         #endregion
     }

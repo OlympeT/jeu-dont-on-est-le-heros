@@ -9,9 +9,17 @@ namespace jeudontonestlehero.Core.Data.Models
     public class Question
     {
         #region Proprietes
+        /// <summary>
+        /// Id de l'instance
+        /// </summary>
         [Key]
         public int Id { get; set; }
+
+        /// <summary>
+        /// Titre de la question
+        /// </summary>
         public string Titre { get; set; }
+
         /// <summary>
         /// Liste des reponses
         /// </summary>
@@ -20,8 +28,5 @@ namespace jeudontonestlehero.Core.Data.Models
         public int ParagrapheId { get; set; }
 
         #endregion
-        public Question()
-        {
-        }
     }
 }

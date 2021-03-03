@@ -10,12 +10,13 @@ namespace jeudontonestlehero.Core.Data.Models
         #region Proprietes
         [Key]
         public int Id { get; set; }
+
         public string Description { get; set; }
 
         public int QuestionId { get; set; }
+
+        public int? ParagrapheId { get; set; }
         #endregion
-        public Reponse()
-        {
-        }
+
     }
 }
